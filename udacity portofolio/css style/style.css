@@ -3,6 +3,16 @@ body {
 	color: #747784;
 	font-weight: 300;
 }
+
+header section article footer {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+
+/*/header/*/
 .title-super {
 	font-size: 40px;
 }
@@ -15,25 +25,34 @@ body {
 }
 .top-title {
 	border-bottom: 2px solid grey;
+
 }
+/*/End-header/*/
+/*/body/*/
 .middle-line {
 	border-bottom: 2px solid grey;
 	padding-bottom: 10px;
 }
 
 .container {
-	border-style: outset;
-    border: 1px solid grey;
-    border-radius: 8px;
+	padding-bottom: 10px;
+
 }
 .projects {
 	margin-top: 20px;
+    width: 100%;
 	
 }
+img {
+    width: 100%;
+}
+/*/End-body/*/
+
 
 /*/Social code/*/
 ul {
     overflow: auto;
+
 }
  
 ul li {
@@ -69,10 +88,3 @@ ul li a i:hover {
     opacity: .7;
 }
 /*/Social code - End/*/
-footer {
-	width: 100%;
-	position: center;
-
-	
-     
-}
